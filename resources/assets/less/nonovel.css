@@ -1,0 +1,138 @@
+html {
+  background-color: #ffffff;
+}
+body {
+  color: #82979f;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+a:link {
+  color: #6499a2;
+}
+a:visited {
+  color: #6499a2;
+}
+a:active {
+  color: #6499a2;
+}
+a:hover {
+  color: #00a39a;
+}
+.button:hover {
+  border-color: #00a39a;
+  color: #00a39a;
+}
+.input:hover {
+  border-color: #00a39a;
+}
+.input:focus {
+  border-color: #00a39a;
+}
+span#subtitle1 {
+  display: inline-block;
+  margin-top: 10px;
+}
+span#subtitle2 {
+  display: none;
+}
+.container {
+  max-width: 1086px;
+}
+.w100p {
+  width: 100%;
+}
+.f90p {
+  font-size: 90%;
+}
+.f120p {
+  font-size: 120%;
+}
+i.fa {
+  padding-right: 3px;
+  vertical-align: baseline;
+}
+#footerMenu {
+  -moz-box-shadow: 0px -3px 6px -3px #bbbbbb;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: 0px -3px 6px -3px #bbbbbb;
+  -webkit-transition: all 0.3s ease-in-out;
+  background: #e8eded;
+  bottom: -40px;
+  box-shadow: 0px -3px 6px -3px #bbbbbb;
+  color: #82979f;
+  font-size: 90%;
+  height: 0px;
+  left: 0;
+  overflow: none;
+  padding: 16px 0;
+  position: fixed;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  z-index: 300;
+}
+#footerMenu div.container {
+  line-height: 1.1;
+  text-align: left;
+}
+#footerMenu ul.navigation li {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+#footerMenu ul.navigation li a {
+  background-color: #82979f;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 90%;
+  padding: .2em 1em;
+  text-decoration: none;
+}
+#footerMenu ul.navigation li a:hover {
+  background-color: #9fafb5;
+  color: white;
+}
+#footerMenu.show {
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  bottom: 0;
+  height: 74px;
+  transition: all 0.3s ease-in-out;
+}
+@media screen and (min-width: 480px) {
+  /* 480px以上用（タブレット／スマートフォン用）の記述 */
+  span#subtitle1 {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  span#subtitle2 {
+    display: none;
+  }
+}
+@media screen and (min-width: 600px) {
+  /* 600px以上用（タブレット用）の記述 */
+  span#subtitle1 {
+    display: none;
+  }
+  span#subtitle2 {
+    display: inline-block;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* 768px以上用（タブレット用）の記述 */
+  span#subtitle1 {
+    display: none;
+  }
+  span#subtitle2 {
+    display: inline-block;
+  }
+}
+@media screen and (min-width: 980px) {
+  /* 980px以上用（PC用）の記述 */
+  span#subtitle1 {
+    display: none;
+  }
+  span#subtitle2 {
+    display: inline-block;
+  }
+}

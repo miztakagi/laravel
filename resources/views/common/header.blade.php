@@ -24,7 +24,7 @@
             <link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
             <!-- CSS -->
             <link href="./css/uikit.almost-flat.min.css" rel="stylesheet">
-            <link href="./css/tooltip.almost-flat.min.css" rel="stylesheet">
+            <link href="./css/components-almost-flat/tooltip.almost-flat.min.css" rel="stylesheet">
             <link href="./css/chewing-grid/chewing-grid-atomic.min.css" rel="stylesheet">
             <link href="./css/style.css" rel="stylesheet">
         </head>
