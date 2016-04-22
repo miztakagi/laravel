@@ -470,18 +470,53 @@ span#subtitle2 {
 /*---- PANEL ----*/
 
 .uk-panel-box {
-    padding: 10px 15px;
+    padding: 5px 15px 10px 15px;
     background: @white;
     color: @cbody;
     border: 1px solid @cgray05;
     border-radius: 4px;
     h4.uk-panel-title {
+    	font-size: 1.2em;
     	font-weight: bold;
     	color: @cbody;
     	text-align: left;
-    	border-bottom: 1px solid @cbody;
+    	border-bottom: 1px dotted @cbody;
     	padding-bottom: 2px;
+    	margin-bottom: 3px;
     }
+    h3.uk-panel-author {
+    	font-size: 1.0em;
+    	font-weight: bold;
+    	color: @cbody;
+    	text-align: right;
+    	border-bottom: 1px dotted @cbody;
+    	padding-bottom: 2px;
+    	margin: 0 0 5px 0;
+    }
+    .badges {
+    	float: right;
+    	margin-bottom: 5px;
+    	.uk-badge {
+    		padding: 1px 2px;
+    		&.small {
+    			font-size: 0.6em;
+    		}
+    	}
+    }
+    .tags {
+    	margin: 5px;
+    	text-align: left;
+    	line-heoght: 1.0;
+	    .tag {
+	    	height: 16px;
+	    	background-color: @cpatt04;
+	    	color: @white;
+	    	font-size: 0.8em;
+	    	padding: 2px 8px;
+	    	border-radius: 8px;
+	    	white-space: nowrap;
+	    }
+	  }
     .uk-panel-teaser {
     	test-align: center;
     	height: 100px;
@@ -490,23 +525,58 @@ span#subtitle2 {
 		  -moz-box-shadow:    0px 1px 2px fade(@gray, 50%);
 		  box-shadow:         0px 1px 2px fade(@gray, 50%);
     }
+    .context {
+    	font-size: 0.85em;
+    	font-weight: normal;
+    	overflow: hidden;
+			white-space: nowrap;
+			-webkit-text-overflow: ellipsis;
+			-o-text-overflow: ellipsis;
+			text-overflow: ellipsis;
+    }
+    .uk-overlay-background {
+    	background: rgba(0, 0, 0, .7);
+    	border-radius: 4px;
+    }
+    .uk-overlay-panel {
+    	padding: 10px;
+    }
     .box-text {
+    	height: 80%;
 			text-align: left;
 			padding: 0;
 			margin: 5px 0;
 			line-height: 1.3;
-			font-weight: normal;	
+			font-weight: normal;
+			overflow: scroll;
+			/*
+			overflow: hidden;
+			white-space: nowrap;
+			-webkit-text-overflow: ellipsis;
+			-o-text-overflow: ellipsis;
+			text-overflow: ellipsis;
+			*/
+		}
+		button.readtry {
+			margin: 5px auto;
 		}
 		.box-cover {
 			margin-bottom: 10px;
 		}
 		.box-photo {
 		}
+		.prof {
+			font-size: 0.85em;
+			text-align: right;
+			line-height: 1.3;
+			border-bottom: 1px dotted @cbody;
+    	padding: 2px 0 5px 0;
+		}
 		.uk-thumbnail {
 			padding: 0;
 			border: none;
 			border-radius: 0;
-			max-height: 200px;
+			max-height: 280px;
 			overflow: hidden;
 		}
     &.color-pink {

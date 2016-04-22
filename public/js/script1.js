@@ -93,6 +93,15 @@ $(function(){
     $('html, body').animate({scrollTop:$(document).height()-5}, 'slow'); // bottomへスクロールして表示
 	});
 
+  // オーバーレイの表示非表示
+  $(".uk-overlay").on("click", function(){
+    if($(this).hasClass("uk-overlay-active")){
+      $(this).removeClass("uk-overlay-active");
+    }else{
+      $(this).addClass("uk-overlay-active");
+    }
+  });
+
 	function dispOn(target1, target2){
 		target1.hide();
 		target2.show();
