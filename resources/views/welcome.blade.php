@@ -50,7 +50,7 @@
                         <span class="uk-badge uk-badge-warning">おすすめ作</span>
                     </div>
                     <div class="box-cover uk-thumbnail uk-thumbnail-expand uk-badge uk-badge-success">
-                        <img class="box-photo" src="../data/cover/na/na1000001.jpg" alt="君の膵臓をたべたい/住野よる/￥1,512" />
+                        <img class="box-photo" src="./data/cover/na/na1000001.jpg" alt="君の膵臓をたべたい/住野よる/￥1,512" />
                     </div>
                     <h4 class="uk-panel-title">君の膵臓をたべたい</h4>
                     <h3 class="uk-panel-author">住野よる</h3>
@@ -83,7 +83,7 @@
                         <span class="uk-badge uk-badge-danger">話題作</span>
                     </div>
                     <div class="box-cover uk-thumbnail uk-thumbnail-expand">
-                        <img class="box-photo" src="../data/cover/na/na1000003.jpg" alt="また、同じ夢を見ていた/住野よる/￥1,512" />
+                        <img class="box-photo" src="./data/cover/na/na1000003.jpg" alt="また、同じ夢を見ていた/住野よる/￥1,512" />
                     </div>
                     <h4 class="uk-panel-title">また、同じ夢を見ていた</h4>
                     <h3 class="uk-panel-author">住野よる</h3>
@@ -116,7 +116,7 @@
                         <span class="uk-badge uk-badge-warning">恋愛</span>
                     </div>
                     <div class="box-cover uk-thumbnail uk-thumbnail-expand uk-badge uk-badge-success">
-                        <img class="box-photo" src="../data/cover/na/na1000005.jpg" alt="ぼくは明日、昨日のきみとデートする/七月隆文/￥724" />
+                        <img class="box-photo" src="./data/cover/na/na1000005.jpg" alt="ぼくは明日、昨日のきみとデートする/七月隆文/￥724" />
                     </div>
                     <h4 class="uk-panel-title">ぼくは明日、昨日のきみとデートする</h4>
                     <h3 class="uk-panel-author">七月隆文</h3>
@@ -149,7 +149,7 @@
                         <span class="uk-badge uk-badge-danger">人気作</span>
                     </div>
                     <div class="box-cover uk-thumbnail uk-thumbnail-expand uk-badge uk-badge-success">
-                        <img class="box-photo" src="../data/cover/ca/ca1000002.jpg" alt="ゴールデンカムイ 第1巻/野田サトル/￥555" />
+                        <img class="box-photo" src="./data/cover/ca/ca1000002.jpg" alt="ゴールデンカムイ 第1巻/野田サトル/￥555" />
                     </div>
                     <h4 class="uk-panel-title">ゴールデンカムイ 第1巻</h4>
                     <h3 class="uk-panel-author">野田サトル</h3>
